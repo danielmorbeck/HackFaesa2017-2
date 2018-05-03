@@ -32,42 +32,120 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     controller: 'AppCtrl'
   })
 
-  .state('app.search', {
-    url: '/search',
+  .state('app.telaCriarConteudo', {
+    url: '/telaCriarConteudo',
     views: {
       'menuContent': {
-        templateUrl: 'templates/search.html'
+        templateUrl: 'templates/telaCriarConteudo.html',
+        controller: 'AppController'
       }
     }
   })
 
-  .state('app.browse', {
-      url: '/browse',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/browse.html'
-        }
+  .state('app.telaEntrar', {
+    url: '/telaEntrar',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/telaEntrar.html',
+        controller: 'AppController'
       }
-    })
-    .state('app.playlists', {
-      url: '/playlists',
+    }
+  })
+
+  .state('app.telaVouncher', {
+    url: '/telaVouncher',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/telaVouncher.html',
+        controller: 'AppController'
+      }
+    }
+  })
+
+    .state('app.telaCadastro', {
+      url: '/telaCadastro',
       views: {
         'menuContent': {
-          templateUrl: 'templates/playlists.html',
-          controller: 'PlaylistsCtrl'
+          templateUrl: 'templates/telaCadastro.html'
         }
       }
     })
 
-  .state('app.single', {
-    url: '/playlists/:playlistId',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/playlist.html',
-        controller: 'PlaylistCtrl'
+    .state('app.telaPerfil', {
+      url: '/telaPerfil',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/telaPerfil.html',
+          controller: 'AppController'
+        }
       }
-    }
-  });
+    })
+
+    .state('app.telaMapa', {
+      url: '/telaMapa',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/telaMapa.html',
+          controller: 'AppController'
+        }
+      }
+    })
+    .state('app.telaRestaurante', {
+      url: '/telaRestaurante',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/telaRestaurante.html',
+        }
+      }
+    })
+
+    .state('app.telaVouncherError', {
+      url: '/telaVouncherError',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/telaVouncherError.html'
+        }
+      }
+    })
+
+    .state('app.telaRestaurantes', {
+      url: '/telaRestaurantes',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/telaRestaurantes.html'
+        }
+      }
+    })
+
+    .state('app.telaLocal', {
+      url: '/telaLocal',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/telaLocal.html'
+        }
+      }
+    })
+
+    .state('app.telaCidade', {
+      url: '/telaCidade',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/telaCidade.html',
+          controller: 'AppController'
+        }
+      }
+    })
+
+    .state('app.telaPT', {
+      url: '/telaPT',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/telaPT.html',
+          controller: 'AppController'
+        }
+      }
+    })
+
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/playlists');
+  $urlRouterProvider.otherwise('/app/telaEntrar');
 });

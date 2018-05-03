@@ -1,0 +1,71 @@
+<ion-view class="fundoEntrar" view-title="Criar Conteúdo">
+        <ion-content>
+                <div class="list">
+                        
+                          <label class="item item-input item-select">
+                            <div class="input-label">
+                              Cidade
+                            </div>
+                            <select>
+                              <option>Vila Velha</option>
+                              <option selected>Domingos Martins</option>
+                            </select>
+                          </label>
+
+                          <label class="item item-input item-select">
+                                <div class="input-label">
+                                  Local
+                                </div>
+                                <select>
+                                  <option>Cervejaria Barba Ruiva</option>
+                                  <option selected>Parque Estadual da Pedra Azul</option>
+                                  <option>Praça Arthur Gerhardt</option>
+                                  <option>Museu de Colonização Alemã</option>
+                                </select>
+                              </label>
+                        
+                        </div>
+                        <div class="card">
+                                <div class="item item-divider">
+                                  Tipo de conteúdo
+                                </div>
+                                <div class="item item-text-wrap">
+                                        <ion-list>
+                                                
+                                                <ion-checkbox ng-model="filter.video">Vídeo/Foto</ion-checkbox>
+                                                <button class="button button-block button-calm">
+                                                    Fazer Upload
+                                                </button>
+                                                <ion-checkbox ng-model="filter.texto">Texto</ion-checkbox>
+                                                <label class="item-input-wrapper">
+                                                        <input type="text" placeholder="Digite aqui">
+                                                </label>
+                                        </ion-list>
+                                </div>
+                        </div>
+                        <div class="card">
+                                <div class="item item-divider">
+                                  Avaliação
+                                </div>
+                                <div class="item item-text-wrap">
+                                        <div class="button-bar">
+                                                <a class="button button-energized ion-star"></a>
+                                                <a class="button button-energized ion-star"></a>
+                                                <a class="button button-energized ion-star"></a>
+                                                <a class="button button-energized ion-star"></a>
+                                                <a class="button button-energized ion-star"></a>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="button-bar">
+                                <a class="tamanhoicon button button-calm ion-social-twitter"></a>
+                                <a class="tamanhoicon button button-positive ion-social-facebook"></a>
+                                <a class="tamanhoicon button button-assertive ion-social-googleplus"></a>
+                                <a class="tamanhoicon button button-royal ion-social-instagram"></a>
+                                <a class="tamanhoicon button button-balanced ion-social-whatsapp"></a>
+                        </div>
+                        <button class="button button-block button-calm">
+                                Enviar avaliação
+                        </button>
+        </ion-content>
+</ion-view>

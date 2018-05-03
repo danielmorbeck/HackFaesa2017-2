@@ -1,1 +1,179 @@
 /* Empty. Add your own CSS if you like */
+
+
+*{
+    font-family: 'Helvetica' !important;
+}
+
+.texto-cadastro{
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    padding: 10px;
+}
+
+.circulo-perfil{
+    color: #242424 !important;
+    font-weight: bold;
+    font-size: 80px;
+    padding: 25px;
+    text-align: center;
+    width: 130px;
+    height: 130px;
+    border-radius: 50% !important;
+    background-color: #f5eded;
+    -webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+}
+
+.circulo-avaliacao{
+    color: #242424 !important;
+    font-weight: bold;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50% !important;
+    background-color: #f5eded;
+    -webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+}
+
+.nomePerfil{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 18px;
+}
+
+.fundoEntrar{
+    background-image: url("thumbnail_backgroundCut.jpg");
+}
+
+.fundoLocal{
+    background-image: url("pedraAzul.jpeg");
+}
+
+.midia{
+    font-size: 30px;
+    color: black !important;
+}
+
+.patente{
+    color: #494cff !important;
+    font-size: 20px;
+    font-weight: normal !important;
+    padding: 15px;
+}
+
+.imagemCidades{
+    font-weight: bold;
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 5px;
+}
+
+.textoCidades{
+    font-size: 18px;
+    padding: 5px;
+    color: #000000 !important;
+}
+
+.textoLocais{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000 !important;
+}
+
+.moeda{
+    font-size: 20px;
+    text-align: right !important;
+    color: black !important; 
+}
+
+.moeda2{
+    font-size: 25px;
+    color:black !important; 
+}
+
+.vidro{
+    opacity: 0.9;
+}
+
+.rosa{
+    background-color: #FF91AF !important;
+}
+
+.tamanhoicon{
+    font-size: 23px !important;
+}
+
+.cidadeDescricao{
+    font-size: 15px;
+}
+
+.preco{
+    color: red;
+    font-size: 20px;
+}
+
+.mapa{
+    height: 150px !important;
+}
+
+.km{
+    padding-left: 35px;
+    font-size: 13px;
+    color: rgb(114, 114, 114);
+}
+
+.desconto{
+    color: red;
+}
+
+.sadboy{
+    font-size: 100px;
+    padding-left: 50px;
+}
+
+.barra{
+    padding-top: -30px;
+}
+
+.sobra{
+    color: green;
+    padding-left: 15px;
+}
+
+.rosinha{
+    background-color:#FF91AF !important
+}
+
+.nomeAvaliacao{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.Avaliacao{
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.estrela{
+    font-size: 25px;
+}
+
+.tamanho{
+    width: 150px;
+    height: 85px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.fotoAvaliacao{
+    width: 360px;
+    height: 360px;
+    padding-top: 10px;  
+}

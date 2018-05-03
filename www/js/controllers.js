@@ -52,5 +52,42 @@ angular.module('starter.controllers', [])
   ];
 })
 
+
+
+.controller('AppController', function($scope, $state) {
+  $scope.irPerfil = function() {
+    $state.go("app.telaPerfil", {}, {reload : true});
+    $scope.verificarLogin = true;
+  }
+  $scope.irVouncher = function() {
+    $state.go("app.telaVouncher", {}, {reload : true});
+    $scope.verificarLogin = true;
+  }
+  $scope.irVouncherError = function() {
+    $state.go("app.telaVouncherError", {}, {reload : true});
+    $scope.verificarLogin = true;
+  }
+  $scope.irPT = function() {
+    $state.go("app.telaPT", {}, {reload : true});
+    $scope.verificarLogin = true;
+  }
+  $scope.irRestaurante = function() {
+    $state.go("app.telaRestaurantes", {}, {reload : true});
+    $scope.verificarLogin = true;
+  }
+  $scope.irLocal = function() {
+    $state.go("app.telaLocal", {}, {reload : true});
+    $scope.verificarLogin = true;
+  }
+  $scope.irCidade = function() {
+    $state.go("app.telaCidade", {}, {reload : true});
+    $scope.verificarLogin = true;
+  }
+  $scope.irConvento = function() {
+    $state.go("app.telaRestaurante", {}, {reload : true});
+    $scope.verificarLogin = true;
+  }
+})
+
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 });
